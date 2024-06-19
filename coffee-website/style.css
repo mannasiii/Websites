@@ -70,7 +70,7 @@ header{
   color: var(--text-color); 
   font-size: 15px;
   font-weight: 500;
-  transition: all .6s ease-in-out;
+  transition: all .6s ease;
 }
 .nav-btn:hover{
     transform: translateY(-7px);
@@ -84,4 +84,5 @@ header{
     z-index: 10001;
     cursor: pointer;
     margin-left: 25px;
+    display: none;
 }
